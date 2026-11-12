@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@import "@fontsource-variable/inter";
+@import "@fontsource/source-serif-4/400.css";
+@import "@fontsource/source-serif-4/600.css";
+@import "@fontsource/source-serif-4/400-italic.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+
+/* ------------------------------------------------------------------ */
+/* Design tokens: restrained, scientific, editorial.                   */
+/* Light = warm parchment; dark = a designed dark system, not an       */
+/* inversion. Chart palettes mirror these values in lib/theme.ts.      */
+/* ------------------------------------------------------------------ */
+
+:root {
+  --bg: #f6f4ef;
+  --panel: #fcfbf7;
+  --panel2: #efece5;
+  --line: #e2ded3;
+  --line-strong: #cfc9bb;
+  --ink: #262420;
+  --ink2: #6f6a5f;
+  --ink3: #948e80;
+  --accent: #44684d;
+  --accent-hover: #38573f;
+  --accent-soft: #e7ece5;
+  --accent-ink: #2c4532;
+  --warn: #b08d3e;
+  --danger: #b34f45;
+  --info: #2f6f74;
+}
+
+.dark {
+  --bg: #14130f;
+  --panel: #1c1b16;
+  --panel2: #242219;
+  --line: #34312a;
+  --line-strong: #45423a;
+  --ink: #e6e2d8;
+  --ink2: #9a958a;
+  --ink3: #6f6a5f;
+  --accent: #8db894;
+  --accent-hover: #a3c9a9;
+  --accent-soft: #242c24;
+  --accent-ink: #b9d4bd;
+  --warn: #c9a95c;
+  --danger: #c96357;
+  --info: #5fa8ae;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-panel2: var(--panel2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink2: var(--ink2);
+  --color-ink3: var(--ink3);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
+
+  --font-sans: "Inter Variable", "Inter", system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* tabular numerals for statistics and measurements */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* editorial display headings */
+.display {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+/* small overline label used above sections */
+.overline {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink2);
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 6px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* plotly modebar: keep it quiet */
+.js-plotly-plot .plotly .modebar {
+  opacity: 0.25;
+  transition: opacity 120ms ease;
+}
+.js-plotly-plot:hover .plotly .modebar {
+  opacity: 0.8;
+}

@@ -1,0 +1,19 @@
+{
+  "buildCommand": "cd frontend && npm install --no-audit --no-fund && npm run build",
+  "outputDirectory": "frontend/dist",
+  "installCommand": "pip install -r requirements.txt",
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 60,
+      "memory": 3008
+    }
+  },
+  "env": {
+    "AVIAN_SERVERLESS": "1",
+    "AVIAN_INLINE_JOBS": "1"
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

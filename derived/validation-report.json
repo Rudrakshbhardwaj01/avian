@@ -1,0 +1,2235 @@
+{
+ "meta": {
+  "version": "2.3.1",
+  "taxonomy": "AviList v2026",
+  "declaredCount": 11011,
+  "actualCount": 11011,
+  "countMatches": true
+ },
+ "recordCount": 11011,
+ "duplicates": {
+  "ids": [],
+  "scientificNames": [],
+  "taxonomicSeq": []
+ },
+ "missingness": [
+  {
+   "field": "authority",
+   "domain": "identity",
+   "nMissing": 0,
+   "nPresent": 11011,
+   "missingPct": 0.0
+  },
+  {
+   "field": "en",
+   "domain": "names",
+   "nMissing": 0,
+   "nPresent": 11011,
+   "missingPct": 0.0
+  },
+  {
+   "field": "zhName",
+   "domain": "names",
+   "nMissing": 64,
+   "nPresent": 10947,
+   "missingPct": 0.58
+  },
+  {
+   "field": "rangeText",
+   "domain": "geography",
+   "nMissing": 0,
+   "nPresent": 11011,
+   "missingPct": 0.0
+  },
+  {
+   "field": "rangeBreeding",
+   "domain": "geography",
+   "nMissing": 129,
+   "nPresent": 10882,
+   "missingPct": 1.17
+  },
+  {
+   "field": "breedingRegion",
+   "domain": "geography",
+   "nMissing": 129,
+   "nPresent": 10882,
+   "missingPct": 1.17
+  },
+  {
+   "field": "rangeZh",
+   "domain": "geography",
+   "nMissing": 152,
+   "nPresent": 10859,
+   "missingPct": 1.38
+  },
+  {
+   "field": "ebird",
+   "domain": "identifiers",
+   "nMissing": 28,
+   "nPresent": 10983,
+   "missingPct": 0.25
+  },
+  {
+   "field": "avibase",
+   "domain": "identifiers",
+   "nMissing": 0,
+   "nPresent": 11011,
+   "missingPct": 0.0
+  },
+  {
+   "field": "wikidata",
+   "domain": "identifiers",
+   "nMissing": 254,
+   "nPresent": 10757,
+   "missingPct": 2.31
+  },
+  {
+   "field": "gbif",
+   "domain": "identifiers",
+   "nMissing": 534,
+   "nPresent": 10477,
+   "missingPct": 4.85
+  },
+  {
+   "field": "inaturalist",
+   "domain": "identifiers",
+   "nMissing": 10366,
+   "nPresent": 645,
+   "missingPct": 94.14
+  },
+  {
+   "field": "massG",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "wingMm",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "tailMm",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "tarsusMm",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "beakCulmenMm",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "beakWidthMm",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "beakDepthMm",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "handWingIndex",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "habitat",
+   "domain": "traits",
+   "nMissing": 673,
+   "nPresent": 10338,
+   "missingPct": 6.11
+  },
+  {
+   "field": "habitatDensity",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "migration",
+   "domain": "traits",
+   "nMissing": 601,
+   "nPresent": 10410,
+   "missingPct": 5.46
+  },
+  {
+   "field": "trophicLevel",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "trophicNiche",
+   "domain": "traits",
+   "nMissing": 593,
+   "nPresent": 10418,
+   "missingPct": 5.39
+  },
+  {
+   "field": "lifestyle",
+   "domain": "traits",
+   "nMissing": 588,
+   "nPresent": 10423,
+   "missingPct": 5.34
+  },
+  {
+   "field": "iucn",
+   "domain": "conservation",
+   "nMissing": 871,
+   "nPresent": 10140,
+   "missingPct": 7.91
+  },
+  {
+   "field": "cites",
+   "domain": "conservation",
+   "nMissing": 10833,
+   "nPresent": 178,
+   "missingPct": 98.38
+  },
+  {
+   "field": "chinaProtection",
+   "domain": "conservation",
+   "nMissing": 10621,
+   "nPresent": 390,
+   "missingPct": 96.46
+  },
+  {
+   "field": "extinctionStatus",
+   "domain": "conservation",
+   "nMissing": 10968,
+   "nPresent": 43,
+   "missingPct": 99.61
+  },
+  {
+   "field": "bodyLengthMinCm",
+   "domain": "size",
+   "nMissing": 6497,
+   "nPresent": 4514,
+   "missingPct": 59.0
+  },
+  {
+   "field": "wingspanMinCm",
+   "domain": "size",
+   "nMissing": 10525,
+   "nPresent": 486,
+   "missingPct": 95.59
+  }
+ ],
+ "categorical": [
+  {
+   "field": "order",
+   "label": "Order",
+   "domain": "taxonomy",
+   "nDistinct": 45,
+   "nMissing": 0,
+   "values": [
+    {
+     "value": "Passeriformes",
+     "count": 6673,
+     "pct": 60.6
+    },
+    {
+     "value": "Apodiformes",
+     "count": 469,
+     "pct": 4.26
+    },
+    {
+     "value": "Piciformes",
+     "count": 439,
+     "pct": 3.99
+    },
+    {
+     "value": "Psittaciformes",
+     "count": 391,
+     "pct": 3.55
+    },
+    {
+     "value": "Charadriiformes",
+     "count": 384,
+     "pct": 3.49
+    },
+    {
+     "value": "Columbiformes",
+     "count": 338,
+     "pct": 3.07
+    },
+    {
+     "value": "Galliformes",
+     "count": 305,
+     "pct": 2.77
+    },
+    {
+     "value": "Accipitriformes",
+     "count": 251,
+     "pct": 2.28
+    },
+    {
+     "value": "Strigiformes",
+     "count": 241,
+     "pct": 2.19
+    },
+    {
+     "value": "Coraciiformes",
+     "count": 192,
+     "pct": 1.74
+    },
+    {
+     "value": "Anseriformes",
+     "count": 168,
+     "pct": 1.53
+    },
+    {
+     "value": "Gruiformes",
+     "count": 163,
+     "pct": 1.48
+    },
+    {
+     "value": "Cuculiformes",
+     "count": 155,
+     "pct": 1.41
+    },
+    {
+     "value": "Procellariiformes",
+     "count": 142,
+     "pct": 1.29
+    },
+    {
+     "value": "Pelecaniformes",
+     "count": 113,
+     "pct": 1.03
+    },
+    {
+     "value": "Caprimulgiformes",
+     "count": 97,
+     "pct": 0.88
+    },
+    {
+     "value": "Bucerotiformes",
+     "count": 74,
+     "pct": 0.67
+    },
+    {
+     "value": "Falconiformes",
+     "count": 63,
+     "pct": 0.57
+    },
+    {
+     "value": "Suliformes",
+     "count": 53,
+     "pct": 0.48
+    },
+    {
+     "value": "Trogoniformes",
+     "count": 47,
+     "pct": 0.43
+    },
+    {
+     "value": "Tinamiformes",
+     "count": 47,
+     "pct": 0.43
+    },
+    {
+     "value": "Otidiformes",
+     "count": 26,
+     "pct": 0.24
+    },
+    {
+     "value": "Musophagiformes",
+     "count": 23,
+     "pct": 0.21
+    },
+    {
+     "value": "Ciconiiformes",
+     "count": 20,
+     "pct": 0.18
+    },
+    {
+     "value": "Sphenisciformes",
+     "count": 19,
+     "pct": 0.17
+    },
+    {
+     "value": "Podicipediformes",
+     "count": 19,
+     "pct": 0.17
+    },
+    {
+     "value": "Podargiformes",
+     "count": 16,
+     "pct": 0.15
+    },
+    {
+     "value": "Pterocliformes",
+     "count": 16,
+     "pct": 0.15
+    },
+    {
+     "value": "Aegotheliformes",
+     "count": 10,
+     "pct": 0.09
+    },
+    {
+     "value": "Cathartiformes",
+     "count": 7,
+     "pct": 0.06
+    },
+    {
+     "value": "Nyctibiiformes",
+     "count": 7,
+     "pct": 0.06
+    },
+    {
+     "value": "Coliiformes",
+     "count": 6,
+     "pct": 0.05
+    },
+    {
+     "value": "Phoenicopteriformes",
+     "count": 6,
+     "pct": 0.05
+    },
+    {
+     "value": "Apterygiformes",
+     "count": 5,
+     "pct": 0.05
+    },
+    {
+     "value": "Gaviiformes",
+     "count": 5,
+     "pct": 0.05
+    },
+    {
+     "value": "Casuariiformes",
+     "count": 4,
+     "pct": 0.04
+    },
+    {
+     "value": "Mesitornithiformes",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "Phaethontiformes",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "Rheiformes",
+     "count": 2,
+     "pct": 0.02
+    },
+    {
+     "value": "Struthioniformes",
+     "count": 2,
+     "pct": 0.02
+    }
+   ]
+  },
+  {
+   "field": "family",
+   "label": "Family",
+   "domain": "taxonomy",
+   "nDistinct": 249,
+   "nMissing": 0,
+   "values": [
+    {
+     "value": "Tyrannidae",
+     "count": 447,
+     "pct": 4.06
+    },
+    {
+     "value": "Thraupidae",
+     "count": 392,
+     "pct": 3.56
+    },
+    {
+     "value": "Trochilidae",
+     "count": 361,
+     "pct": 3.28
+    },
+    {
+     "value": "Muscicapidae",
+     "count": 358,
+     "pct": 3.25
+    },
+    {
+     "value": "Columbidae",
+     "count": 338,
+     "pct": 3.07
+    },
+    {
+     "value": "Furnariidae",
+     "count": 319,
+     "pct": 2.9
+    },
+    {
+     "value": "Accipitridae",
+     "count": 249,
+     "pct": 2.26
+    },
+    {
+     "value": "Thamnophilidae",
+     "count": 239,
+     "pct": 2.17
+    },
+    {
+     "value": "Picidae",
+     "count": 236,
+     "pct": 2.14
+    },
+    {
+     "value": "Strigidae",
+     "count": 226,
+     "pct": 2.05
+    },
+    {
+     "value": "Fringillidae",
+     "count": 217,
+     "pct": 1.97
+    },
+    {
+     "value": "Meliphagidae",
+     "count": 196,
+     "pct": 1.78
+    },
+    {
+     "value": "Turdidae",
+     "count": 190,
+     "pct": 1.73
+    },
+    {
+     "value": "Psittaculidae",
+     "count": 190,
+     "pct": 1.73
+    },
+    {
+     "value": "Phasianidae",
+     "count": 185,
+     "pct": 1.68
+    },
+    {
+     "value": "Psittacidae",
+     "count": 176,
+     "pct": 1.6
+    },
+    {
+     "value": "Anatidae",
+     "count": 164,
+     "pct": 1.49
+    },
+    {
+     "value": "Cisticolidae",
+     "count": 164,
+     "pct": 1.49
+    },
+    {
+     "value": "Pycnonotidae",
+     "count": 163,
+     "pct": 1.48
+    },
+    {
+     "value": "Cuculidae",
+     "count": 155,
+     "pct": 1.41
+    },
+    {
+     "value": "Nectariniidae",
+     "count": 151,
+     "pct": 1.37
+    },
+    {
+     "value": "Zosteropidae",
+     "count": 144,
+     "pct": 1.31
+    },
+    {
+     "value": "Leiothrichidae",
+     "count": 143,
+     "pct": 1.3
+    },
+    {
+     "value": "Estrildidae",
+     "count": 138,
+     "pct": 1.25
+    },
+    {
+     "value": "Passerellidae",
+     "count": 137,
+     "pct": 1.24
+    },
+    {
+     "value": "Corvidae",
+     "count": 135,
+     "pct": 1.23
+    },
+    {
+     "value": "Rallidae",
+     "count": 126,
+     "pct": 1.14
+    },
+    {
+     "value": "Alcedinidae",
+     "count": 123,
+     "pct": 1.12
+    },
+    {
+     "value": "Ploceidae",
+     "count": 122,
+     "pct": 1.11
+    },
+    {
+     "value": "Sturnidae",
+     "count": 118,
+     "pct": 1.07
+    },
+    {
+     "value": "Parulidae",
+     "count": 116,
+     "pct": 1.05
+    },
+    {
+     "value": "Campephagidae",
+     "count": 107,
+     "pct": 0.97
+    },
+    {
+     "value": "Icteridae",
+     "count": 107,
+     "pct": 0.97
+    },
+    {
+     "value": "Laridae",
+     "count": 105,
+     "pct": 0.95
+    },
+    {
+     "value": "Apodidae",
+     "count": 104,
+     "pct": 0.94
+    },
+    {
+     "value": "Monarchidae",
+     "count": 101,
+     "pct": 0.92
+    },
+    {
+     "value": "Alaudidae",
+     "count": 98,
+     "pct": 0.89
+    },
+    {
+     "value": "Caprimulgidae",
+     "count": 97,
+     "pct": 0.88
+    },
+    {
+     "value": "Troglodytidae",
+     "count": 97,
+     "pct": 0.88
+    },
+    {
+     "value": "Procellariidae",
+     "count": 95,
+     "pct": 0.86
+    }
+   ]
+  },
+  {
+   "field": "genus",
+   "label": "Genus",
+   "domain": "taxonomy",
+   "nDistinct": 2345,
+   "nMissing": 0,
+   "values": [
+    {
+     "value": "Zosterops",
+     "count": 105,
+     "pct": 0.95
+    },
+    {
+     "value": "Turdus",
+     "count": 104,
+     "pct": 0.94
+    },
+    {
+     "value": "Phylloscopus",
+     "count": 80,
+     "pct": 0.73
+    },
+    {
+     "value": "Ploceus",
+     "count": 66,
+     "pct": 0.6
+    },
+    {
+     "value": "Cinnyris",
+     "count": 62,
+     "pct": 0.56
+    },
+    {
+     "value": "Rhipidura",
+     "count": 61,
+     "pct": 0.55
+    },
+    {
+     "value": "Otus",
+     "count": 55,
+     "pct": 0.5
+    },
+    {
+     "value": "Cisticola",
+     "count": 53,
+     "pct": 0.48
+    },
+    {
+     "value": "Pachycephala",
+     "count": 51,
+     "pct": 0.46
+    },
+    {
+     "value": "Scytalopus",
+     "count": 49,
+     "pct": 0.45
+    },
+    {
+     "value": "Grallaria",
+     "count": 47,
+     "pct": 0.43
+    },
+    {
+     "value": "Corvus",
+     "count": 47,
+     "pct": 0.43
+    },
+    {
+     "value": "Ptilinopus",
+     "count": 46,
+     "pct": 0.42
+    },
+    {
+     "value": "Anthus",
+     "count": 46,
+     "pct": 0.42
+    },
+    {
+     "value": "Dicaeum",
+     "count": 44,
+     "pct": 0.4
+    },
+    {
+     "value": "Myzomela",
+     "count": 43,
+     "pct": 0.39
+    },
+    {
+     "value": "Ducula",
+     "count": 42,
+     "pct": 0.38
+    },
+    {
+     "value": "Sporophila",
+     "count": 41,
+     "pct": 0.37
+    },
+    {
+     "value": "Caprimulgus",
+     "count": 39,
+     "pct": 0.35
+    },
+    {
+     "value": "Crithagra",
+     "count": 38,
+     "pct": 0.35
+    },
+    {
+     "value": "Falco",
+     "count": 38,
+     "pct": 0.35
+    },
+    {
+     "value": "Synallaxis",
+     "count": 37,
+     "pct": 0.34
+    },
+    {
+     "value": "Ninox",
+     "count": 36,
+     "pct": 0.33
+    },
+    {
+     "value": "Acrocephalus",
+     "count": 36,
+     "pct": 0.33
+    },
+    {
+     "value": "Setophaga",
+     "count": 35,
+     "pct": 0.32
+    },
+    {
+     "value": "Ficedula",
+     "count": 35,
+     "pct": 0.32
+    },
+    {
+     "value": "Vireo",
+     "count": 34,
+     "pct": 0.31
+    },
+    {
+     "value": "Pterodroma",
+     "count": 33,
+     "pct": 0.3
+    },
+    {
+     "value": "Atlapetes",
+     "count": 33,
+     "pct": 0.3
+    },
+    {
+     "value": "Psilopogon",
+     "count": 33,
+     "pct": 0.3
+    },
+    {
+     "value": "Columba",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Icterus",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Oenanthe",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Cyornis",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Amazona",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Pycnonotus",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Oriolus",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "Thamnophilus",
+     "count": 31,
+     "pct": 0.28
+    },
+    {
+     "value": "Edolisoma",
+     "count": 31,
+     "pct": 0.28
+    },
+    {
+     "value": "Lanius",
+     "count": 30,
+     "pct": 0.27
+    }
+   ]
+  },
+  {
+   "field": "habitat",
+   "label": "Habitat",
+   "domain": "traits",
+   "nDistinct": 11,
+   "nMissing": 673,
+   "values": [
+    {
+     "value": "Forest",
+     "count": 5925,
+     "pct": 53.81
+    },
+    {
+     "value": "Shrubland",
+     "count": 1340,
+     "pct": 12.17
+    },
+    {
+     "value": "Woodland",
+     "count": 921,
+     "pct": 8.36
+    },
+    {
+     "value": "Grassland",
+     "count": 759,
+     "pct": 6.89
+    },
+    {
+     "value": "Wetland",
+     "count": 616,
+     "pct": 5.59
+    },
+    {
+     "value": "Marine",
+     "count": 264,
+     "pct": 2.4
+    },
+    {
+     "value": "Rock",
+     "count": 129,
+     "pct": 1.17
+    },
+    {
+     "value": "Human Modified",
+     "count": 117,
+     "pct": 1.06
+    },
+    {
+     "value": "Coastal",
+     "count": 101,
+     "pct": 0.92
+    },
+    {
+     "value": "Riverine",
+     "count": 97,
+     "pct": 0.88
+    },
+    {
+     "value": "Desert",
+     "count": 69,
+     "pct": 0.63
+    }
+   ]
+  },
+  {
+   "field": "migration",
+   "label": "Migration",
+   "domain": "traits",
+   "nDistinct": 3,
+   "nMissing": 601,
+   "values": [
+    {
+     "value": "sedentary",
+     "count": 8333,
+     "pct": 75.68
+    },
+    {
+     "value": "partially migratory",
+     "count": 1124,
+     "pct": 10.21
+    },
+    {
+     "value": "migratory",
+     "count": 953,
+     "pct": 8.65
+    }
+   ]
+  },
+  {
+   "field": "trophicLevel",
+   "label": "Trophic level",
+   "domain": "traits",
+   "nDistinct": 4,
+   "nMissing": 588,
+   "values": [
+    {
+     "value": "Carnivore",
+     "count": 5793,
+     "pct": 52.61
+    },
+    {
+     "value": "Herbivore",
+     "count": 2897,
+     "pct": 26.31
+    },
+    {
+     "value": "Omnivore",
+     "count": 1713,
+     "pct": 15.56
+    },
+    {
+     "value": "Scavenger",
+     "count": 20,
+     "pct": 0.18
+    }
+   ]
+  },
+  {
+   "field": "trophicNiche",
+   "label": "Trophic niche",
+   "domain": "traits",
+   "nDistinct": 10,
+   "nMissing": 593,
+   "values": [
+    {
+     "value": "Invertivore",
+     "count": 5093,
+     "pct": 46.25
+    },
+    {
+     "value": "Omnivore",
+     "count": 1825,
+     "pct": 16.57
+    },
+    {
+     "value": "Frugivore",
+     "count": 1091,
+     "pct": 9.91
+    },
+    {
+     "value": "Aquatic predator",
+     "count": 739,
+     "pct": 6.71
+    },
+    {
+     "value": "Granivore",
+     "count": 671,
+     "pct": 6.09
+    },
+    {
+     "value": "Nectarivore",
+     "count": 538,
+     "pct": 4.89
+    },
+    {
+     "value": "Vertivore",
+     "count": 262,
+     "pct": 2.38
+    },
+    {
+     "value": "Herbivore terrestrial",
+     "count": 95,
+     "pct": 0.86
+    },
+    {
+     "value": "Herbivore aquatic",
+     "count": 82,
+     "pct": 0.74
+    },
+    {
+     "value": "Scavenger",
+     "count": 22,
+     "pct": 0.2
+    }
+   ]
+  },
+  {
+   "field": "lifestyle",
+   "label": "Primary lifestyle",
+   "domain": "traits",
+   "nDistinct": 5,
+   "nMissing": 588,
+   "values": [
+    {
+     "value": "Insessorial",
+     "count": 6186,
+     "pct": 56.18
+    },
+    {
+     "value": "Terrestrial",
+     "count": 2226,
+     "pct": 20.22
+    },
+    {
+     "value": "Generalist",
+     "count": 927,
+     "pct": 8.42
+    },
+    {
+     "value": "Aerial",
+     "count": 812,
+     "pct": 7.37
+    },
+    {
+     "value": "Aquatic",
+     "count": 272,
+     "pct": 2.47
+    }
+   ]
+  },
+  {
+   "field": "iucn",
+   "label": "IUCN Red List category",
+   "domain": "conservation",
+   "nDistinct": 10,
+   "nMissing": 871,
+   "values": [
+    {
+     "value": "LC",
+     "count": 8002,
+     "pct": 72.67
+    },
+    {
+     "value": "NT",
+     "count": 908,
+     "pct": 8.25
+    },
+    {
+     "value": "VU",
+     "count": 641,
+     "pct": 5.82
+    },
+    {
+     "value": "EN",
+     "count": 356,
+     "pct": 3.23
+    },
+    {
+     "value": "CR",
+     "count": 178,
+     "pct": 1.62
+    },
+    {
+     "value": "DD",
+     "count": 35,
+     "pct": 0.32
+    },
+    {
+     "value": "CR (PE)",
+     "count": 9,
+     "pct": 0.08
+    },
+    {
+     "value": "EW",
+     "count": 5,
+     "pct": 0.05
+    },
+    {
+     "value": "EX",
+     "count": 4,
+     "pct": 0.04
+    },
+    {
+     "value": "CR (PEW)",
+     "count": 2,
+     "pct": 0.02
+    }
+   ]
+  },
+  {
+   "field": "cites",
+   "label": "CITES appendix",
+   "domain": "conservation",
+   "nDistinct": 3,
+   "nMissing": 10833,
+   "values": [
+    {
+     "value": "II",
+     "count": 134,
+     "pct": 1.22
+    },
+    {
+     "value": "I",
+     "count": 40,
+     "pct": 0.36
+    },
+    {
+     "value": "III",
+     "count": 4,
+     "pct": 0.04
+    }
+   ]
+  },
+  {
+   "field": "chinaProtection",
+   "label": "China protection class",
+   "domain": "conservation",
+   "nDistinct": 2,
+   "nMissing": 10621,
+   "values": [
+    {
+     "value": "Class II",
+     "count": 299,
+     "pct": 2.72
+    },
+    {
+     "value": "Class I",
+     "count": 91,
+     "pct": 0.83
+    }
+   ]
+  },
+  {
+   "field": "extinctionStatus",
+   "label": "Extinction status",
+   "domain": "conservation",
+   "nDistinct": 6,
+   "nMissing": 10968,
+   "values": [
+    {
+     "value": "(possibly extinct)",
+     "count": 21,
+     "pct": 0.19
+    },
+    {
+     "value": "Possibly Extinct",
+     "count": 9,
+     "pct": 0.08
+    },
+    {
+     "value": "Extinct in the Wild",
+     "count": 5,
+     "pct": 0.05
+    },
+    {
+     "value": "Extinct",
+     "count": 4,
+     "pct": 0.04
+    },
+    {
+     "value": "Possibly Extinct in the Wild",
+     "count": 2,
+     "pct": 0.02
+    },
+    {
+     "value": "previously Extinct in the Wild, but reintroduced",
+     "count": 2,
+     "pct": 0.02
+    }
+   ]
+  },
+  {
+   "field": "taxonConcept",
+   "label": "Taxon concept change",
+   "domain": "metadata",
+   "nDistinct": 5,
+   "nMissing": 0,
+   "values": [
+    {
+     "value": "same",
+     "count": 10882,
+     "pct": 98.83
+    },
+    {
+     "value": "broadened",
+     "count": 70,
+     "pct": 0.64
+    },
+    {
+     "value": "split",
+     "count": 30,
+     "pct": 0.27
+    },
+    {
+     "value": "narrowed",
+     "count": 21,
+     "pct": 0.19
+    },
+    {
+     "value": "new",
+     "count": 8,
+     "pct": 0.07
+    }
+   ]
+  },
+  {
+   "field": "breedingRegion",
+   "label": "IOC breeding region (verbatim)",
+   "domain": "geography",
+   "nDistinct": 72,
+   "nMissing": 129,
+   "values": [
+    {
+     "value": "SA",
+     "count": 2637,
+     "pct": 23.95
+    },
+    {
+     "value": "AF",
+     "count": 1903,
+     "pct": 17.28
+    },
+    {
+     "value": "AU",
+     "count": 1644,
+     "pct": 14.93
+    },
+    {
+     "value": "OR",
+     "count": 1642,
+     "pct": 14.91
+    },
+    {
+     "value": "PAL",
+     "count": 681,
+     "pct": 6.18
+    },
+    {
+     "value": "MA, SA",
+     "count": 473,
+     "pct": 4.3
+    },
+    {
+     "value": "NA",
+     "count": 437,
+     "pct": 3.97
+    },
+    {
+     "value": "MA",
+     "count": 400,
+     "pct": 3.63
+    },
+    {
+     "value": "PO",
+     "count": 256,
+     "pct": 2.32
+    },
+    {
+     "value": "NA, MA",
+     "count": 185,
+     "pct": 1.68
+    },
+    {
+     "value": "OR, AU",
+     "count": 77,
+     "pct": 0.7
+    },
+    {
+     "value": "NA, MA, SA",
+     "count": 69,
+     "pct": 0.63
+    },
+    {
+     "value": "NA, PAL",
+     "count": 61,
+     "pct": 0.55
+    },
+    {
+     "value": "PAL, OR",
+     "count": 46,
+     "pct": 0.42
+    },
+    {
+     "value": "IO",
+     "count": 45,
+     "pct": 0.41
+    },
+    {
+     "value": "PAL, AF",
+     "count": 41,
+     "pct": 0.37
+    },
+    {
+     "value": "PAL, NA",
+     "count": 36,
+     "pct": 0.33
+    },
+    {
+     "value": "AF, PAL",
+     "count": 32,
+     "pct": 0.29
+    },
+    {
+     "value": "AO",
+     "count": 31,
+     "pct": 0.28
+    },
+    {
+     "value": "SO",
+     "count": 28,
+     "pct": 0.25
+    },
+    {
+     "value": "TrO",
+     "count": 14,
+     "pct": 0.13
+    },
+    {
+     "value": "OR, PAL",
+     "count": 11,
+     "pct": 0.1
+    },
+    {
+     "value": "AF, OR",
+     "count": 10,
+     "pct": 0.09
+    },
+    {
+     "value": "AU, PO",
+     "count": 9,
+     "pct": 0.08
+    },
+    {
+     "value": "Worldwide",
+     "count": 9,
+     "pct": 0.08
+    },
+    {
+     "value": "SO, AN",
+     "count": 9,
+     "pct": 0.08
+    },
+    {
+     "value": "PAL, OR, AU",
+     "count": 7,
+     "pct": 0.06
+    },
+    {
+     "value": "PAL, AF, OR",
+     "count": 7,
+     "pct": 0.06
+    },
+    {
+     "value": "IO, PO",
+     "count": 6,
+     "pct": 0.05
+    },
+    {
+     "value": "PAL, AF, OR, AU",
+     "count": 6,
+     "pct": 0.05
+    },
+    {
+     "value": "NA, MA, PAL",
+     "count": 5,
+     "pct": 0.05
+    },
+    {
+     "value": "AF, PAL, OR",
+     "count": 5,
+     "pct": 0.05
+    },
+    {
+     "value": "NA, SA",
+     "count": 4,
+     "pct": 0.04
+    },
+    {
+     "value": "AF, OR, AU",
+     "count": 4,
+     "pct": 0.04
+    },
+    {
+     "value": "AN",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "AO, IO",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "PO, AO",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "PO, IO",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "AF, IO",
+     "count": 3,
+     "pct": 0.03
+    },
+    {
+     "value": "PAL, OR, AF",
+     "count": 2,
+     "pct": 0.02
+    }
+   ]
+  },
+  {
+   "field": "bodyLengthSource",
+   "label": "Body length source",
+   "domain": "size",
+   "nDistinct": 5,
+   "nMissing": 6497,
+   "values": [
+    {
+     "value": "enwiki explicit body-length sentence",
+     "count": 3758,
+     "pct": 34.13
+    },
+    {
+     "value": "zhwiki-text",
+     "count": 364,
+     "pct": 3.31
+    },
+    {
+     "value": "enwiki-text",
+     "count": 283,
+     "pct": 2.57
+    },
+    {
+     "value": "zhwiki explicit body-length sentence",
+     "count": 104,
+     "pct": 0.94
+    },
+    {
+     "value": "wikidata",
+     "count": 5,
+     "pct": 0.05
+    }
+   ]
+  }
+ ],
+ "numeric": [
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 1.9,
+   "p01": 3.7,
+   "q25": 14.8,
+   "median": 34.9,
+   "q75": 118.0,
+   "p99": 3897.7,
+   "max": 111000.0,
+   "mean": 269.1803799290032,
+   "std": 1918.4892501902173,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "massG",
+   "label": "Body mass (g)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 0.1,
+   "p01": 43.222,
+   "q25": 66.4,
+   "median": 91.1,
+   "q75": 144.8,
+   "p99": 512.4720000000016,
+   "max": 789.9,
+   "mean": 124.33278326777321,
+   "std": 93.6536631579832,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "wingMm",
+   "label": "Wing length (mm)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 0.1,
+   "p01": 24.221999999999998,
+   "q25": 50.0,
+   "median": 68.4,
+   "q75": 99.25,
+   "p99": 322.7120000000003,
+   "max": 812.8,
+   "mean": 86.51136908759474,
+   "std": 61.599926714956084,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "tailMm",
+   "label": "Tail length (mm)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 2.5,
+   "p01": 4.4,
+   "q25": 17.4,
+   "median": 21.9,
+   "q75": 31.2,
+   "p99": 117.09200000000092,
+   "max": 481.2,
+   "mean": 28.61323035594359,
+   "std": 24.976636224368338,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "tarsusMm",
+   "label": "Tarsus length (mm)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 4.5,
+   "p01": 8.4,
+   "q25": 14.6,
+   "median": 19.9,
+   "q75": 28.5,
+   "p99": 134.82400000000052,
+   "max": 414.2,
+   "mean": 26.379986568166558,
+   "std": 24.591486173239076,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "beakCulmenMm",
+   "label": "Beak culmen (mm)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 0.7,
+   "p01": 1.8,
+   "q25": 3.6,
+   "median": 5.0,
+   "q75": 7.6,
+   "p99": 27.378000000000064,
+   "max": 88.9,
+   "mean": 6.546877098723976,
+   "std": 5.145213654562844,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "beakWidthMm",
+   "label": "Beak width (mm)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 1.0,
+   "p01": 1.7,
+   "q25": 3.8,
+   "median": 5.8,
+   "q75": 9.3,
+   "p99": 38.5,
+   "max": 110.9,
+   "mean": 8.000124724167705,
+   "std": 7.561852225518901,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "beakDepthMm",
+   "label": "Beak depth (mm)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 0.1,
+   "p01": 5.522,
+   "q25": 15.2,
+   "median": 21.0,
+   "q75": 31.6,
+   "p99": 67.8,
+   "max": 74.3,
+   "mean": 25.437742492564517,
+   "std": 14.977429493137999,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "handWingIndex",
+   "label": "Hand-wing index (0-1)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 10423,
+   "nMissing": 588,
+   "missingPct": 5.34,
+   "min": 1.0,
+   "p01": 1.0,
+   "q25": 1.0,
+   "median": 2.0,
+   "q75": 2.0,
+   "p99": 3.0,
+   "max": 3.0,
+   "mean": 1.7436438645303656,
+   "std": 0.7789088169474734,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "habitatDensity",
+   "label": "Habitat density (ordinal 1-3)",
+   "domain": "traits"
+  },
+  {
+   "n": 11011,
+   "nValid": 4514,
+   "nMissing": 6497,
+   "missingPct": 59.0,
+   "min": 5.0,
+   "p01": 7.5,
+   "q25": 12.5,
+   "median": 17.0,
+   "q75": 26.0,
+   "p99": 90.0,
+   "max": 220.0,
+   "mean": 22.830671245015505,
+   "std": 17.276429036008416,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "bodyLengthMinCm",
+   "label": "Body length min (cm)",
+   "domain": "size"
+  },
+  {
+   "n": 11011,
+   "nValid": 4514,
+   "nMissing": 6497,
+   "missingPct": 59.0,
+   "min": 5.0,
+   "p01": 8.4,
+   "q25": 13.5,
+   "median": 18.0,
+   "q75": 28.0,
+   "p99": 102.0,
+   "max": 220.0,
+   "mean": 25.0676894107222,
+   "std": 19.49482974746029,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "bodyLengthMaxCm",
+   "label": "Body length max (cm)",
+   "domain": "size"
+  },
+  {
+   "n": 11011,
+   "nValid": 486,
+   "nMissing": 10525,
+   "missingPct": 95.59,
+   "min": 14.0,
+   "p01": 17.0,
+   "q25": 40.0,
+   "median": 70.0,
+   "q75": 110.0,
+   "p99": 265.06999999999954,
+   "max": 320.0,
+   "mean": 85.16502057613168,
+   "std": 59.48062259794152,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "wingspanMinCm",
+   "label": "Wingspan min (cm)",
+   "domain": "size"
+  },
+  {
+   "n": 11011,
+   "nValid": 486,
+   "nMissing": 10525,
+   "missingPct": 95.59,
+   "min": 14.0,
+   "p01": 17.0,
+   "q25": 40.0,
+   "median": 70.35,
+   "q75": 110.75,
+   "p99": 265.06999999999954,
+   "max": 320.0,
+   "mean": 86.34567901234568,
+   "std": 60.336917045952525,
+   "nZero": 0,
+   "nNegative": 0,
+   "field": "wingspanMaxCm",
+   "label": "Wingspan max (cm)",
+   "domain": "size"
+  }
+ ],
+ "suspicious": [
+  {
+   "field": "handWingIndex",
+   "rule": "value <= 0.15 (exactly 0.1 occurs repeatedly; looks like a floor for flightless birds but is not documented as a sentinel)",
+   "policy": "kept in analyses, flagged here; histogram bucket reported separately",
+   "count": 12,
+   "examples": [
+    {
+     "id": "Struthio_molybdophanes",
+     "sci": "Struthio molybdophanes",
+     "en": "Somali Ostrich",
+     "value": 0.1
+    },
+    {
+     "id": "Struthio_camelus",
+     "sci": "Struthio camelus",
+     "en": "Common Ostrich",
+     "value": 0.1
+    },
+    {
+     "id": "Dromaius_novaehollandiae",
+     "sci": "Dromaius novaehollandiae",
+     "en": "Emu",
+     "value": 0.1
+    },
+    {
+     "id": "Casuarius_unappendiculatus",
+     "sci": "Casuarius unappendiculatus",
+     "en": "Northern Cassowary",
+     "value": 0.1
+    },
+    {
+     "id": "Casuarius_casuarius",
+     "sci": "Casuarius casuarius",
+     "en": "Southern Cassowary",
+     "value": 0.1
+    },
+    {
+     "id": "Casuarius_bennetti",
+     "sci": "Casuarius bennetti",
+     "en": "Dwarf Cassowary",
+     "value": 0.1
+    },
+    {
+     "id": "Apteryx_owenii",
+     "sci": "Apteryx owenii",
+     "en": "Little Spotted Kiwi",
+     "value": 0.1
+    },
+    {
+     "id": "Apteryx_australis",
+     "sci": "Apteryx australis",
+     "en": "Southern Brown Kiwi",
+     "value": 0.1
+    },
+    {
+     "id": "Apteryx_rowi",
+     "sci": "Apteryx rowi",
+     "en": "Okarito Kiwi",
+     "value": 0.1
+    },
+    {
+     "id": "Apteryx_mantelli",
+     "sci": "Apteryx mantelli",
+     "en": "North Island Brown Kiwi",
+     "value": 0.1
+    },
+    {
+     "id": "Rhea_pennata",
+     "sci": "Rhea pennata",
+     "en": "Lesser Rhea",
+     "value": 0.1
+    },
+    {
+     "id": "Rhea_americana",
+     "sci": "Rhea americana",
+     "en": "Greater Rhea",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "field": "massG",
+   "rule": "value < 2.5 g (bee-hummingbird range; plausible but extreme)",
+   "policy": "kept; log-scale required for mass analyses",
+   "count": 18,
+   "examples": []
+  }
+ ],
+ "coverage": [
+  {
+   "domain": "Taxonomy",
+   "fields": "order / family / genus / sequence",
+   "n": 11011,
+   "pct": 100.0
+  },
+  {
+   "domain": "English name",
+   "fields": "names.en",
+   "n": 11011,
+   "pct": 100.0
+  },
+  {
+   "domain": "Traits (AVONET)",
+   "fields": "measurements + ecology",
+   "n": 10423,
+   "pct": 94.66
+  },
+  {
+   "domain": "Traits, non-imputed",
+   "fields": "traits without inferred values",
+   "n": 9632,
+   "pct": 87.48
+  },
+  {
+   "domain": "Conservation - IUCN",
+   "fields": "conservation.iucn",
+   "n": 10140,
+   "pct": 92.09
+  },
+  {
+   "domain": "Conservation - CITES",
+   "fields": "conservation.cites",
+   "n": 178,
+   "pct": 1.62
+  },
+  {
+   "domain": "Conservation - China",
+   "fields": "conservation.chinaProtection",
+   "n": 390,
+   "pct": 3.54
+  },
+  {
+   "domain": "Range text",
+   "fields": "range.text",
+   "n": 11011,
+   "pct": 100.0
+  },
+  {
+   "domain": "IOC breeding region",
+   "fields": "range.ioc",
+   "n": 10882,
+   "pct": 98.83
+  },
+  {
+   "domain": "Body size",
+   "fields": "size",
+   "n": 4514,
+   "pct": 41.0
+  },
+  {
+   "domain": "Wingspan",
+   "fields": "size.wingspanCm",
+   "n": 486,
+   "pct": 4.41
+  },
+  {
+   "domain": "eBird ID",
+   "fields": "ids.ebird",
+   "n": 10983,
+   "pct": 99.75
+  },
+  {
+   "domain": "Wikidata ID",
+   "fields": "ids.wikidata",
+   "n": 10757,
+   "pct": 97.69
+  },
+  {
+   "domain": "GBIF ID",
+   "fields": "ids.gbif",
+   "n": 10477,
+   "pct": 95.15
+  },
+  {
+   "domain": "iNaturalist ID",
+   "fields": "ids.inaturalist",
+   "n": 645,
+   "pct": 5.86
+  },
+  {
+   "domain": "Subspecies records",
+   "fields": "subspecies",
+   "n": 4993,
+   "pct": 45.35
+  }
+ ],
+ "subspecies": {
+  "speciesWithSubspecies": 4993,
+  "totalEntries": 19835,
+  "withRangeText": 19835,
+  "withExtinctMarker": 97,
+  "extinctMarkers": {
+   "(extinct)": 71,
+   "(possibly extinct)": 25,
+   "Possibly Extinct": 1
+  },
+  "maxPerSpecies": 42
+ },
+ "names": {
+  "languageCount": 46,
+  "languages": [
+   {
+    "code": "en",
+    "n": 11011,
+    "pct": 100.0
+   },
+   {
+    "code": "zh-Hans",
+    "n": 10947,
+    "pct": 99.42
+   },
+   {
+    "code": "sk",
+    "n": 10882,
+    "pct": 98.83
+   },
+   {
+    "code": "fr",
+    "n": 10873,
+    "pct": 98.75
+   },
+   {
+    "code": "nl",
+    "n": 10858,
+    "pct": 98.61
+   },
+   {
+    "code": "eo",
+    "n": 10858,
+    "pct": 98.61
+   },
+   {
+    "code": "sv",
+    "n": 10858,
+    "pct": 98.61
+   },
+   {
+    "code": "pt-x-lusophone",
+    "n": 10857,
+    "pct": 98.6
+   },
+   {
+    "code": "fr-x-gaudin",
+    "n": 10852,
+    "pct": 98.56
+   },
+   {
+    "code": "no",
+    "n": 10850,
+    "pct": 98.54
+   },
+   {
+    "code": "da",
+    "n": 10814,
+    "pct": 98.21
+   },
+   {
+    "code": "pl",
+    "n": 10814,
+    "pct": 98.21
+   },
+   {
+    "code": "es",
+    "n": 10716,
+    "pct": 97.32
+   },
+   {
+    "code": "pt-PT",
+    "n": 10713,
+    "pct": 97.29
+   },
+   {
+    "code": "de",
+    "n": 10661,
+    "pct": 96.82
+   },
+   {
+    "code": "uk",
+    "n": 10626,
+    "pct": 96.5
+   },
+   {
+    "code": "hr",
+    "n": 10502,
+    "pct": 95.38
+   },
+   {
+    "code": "ru",
+    "n": 10455,
+    "pct": 94.95
+   },
+   {
+    "code": "tr",
+    "n": 10447,
+    "pct": 94.88
+   },
+   {
+    "code": "ja",
+    "n": 10418,
+    "pct": 94.61
+   },
+   {
+    "code": "zh-Hant",
+    "n": 10375,
+    "pct": 94.22
+   },
+   {
+    "code": "cs",
+    "n": 10050,
+    "pct": 91.27
+   },
+   {
+    "code": "ca",
+    "n": 9999,
+    "pct": 90.81
+   },
+   {
+    "code": "fi",
+    "n": 9923,
+    "pct": 90.12
+   },
+   {
+    "code": "it",
+    "n": 9908,
+    "pct": 89.98
+   },
+   {
+    "code": "lt",
+    "n": 9787,
+    "pct": 88.88
+   },
+   {
+    "code": "sr",
+    "n": 7912,
+    "pct": 71.86
+   },
+   {
+    "code": "hu",
+    "n": 6389,
+    "pct": 58.02
+   },
+   {
+    "code": "et",
+    "n": 5563,
+    "pct": 50.52
+   },
+   {
+    "code": "lv",
+    "n": 1979,
+    "pct": 17.97
+   },
+   {
+    "code": "id",
+    "n": 1934,
+    "pct": 17.56
+   },
+   {
+    "code": "bg",
+    "n": 1392,
+    "pct": 12.64
+   },
+   {
+    "code": "he",
+    "n": 1129,
+    "pct": 10.25
+   },
+   {
+    "code": "sl",
+    "n": 1084,
+    "pct": 9.84
+   },
+   {
+    "code": "th",
+    "n": 993,
+    "pct": 9.02
+   },
+   {
+    "code": "af",
+    "n": 966,
+    "pct": 8.77
+   },
+   {
+    "code": "is",
+    "n": 950,
+    "pct": 8.63
+   },
+   {
+    "code": "se",
+    "n": 930,
+    "pct": 8.45
+   },
+   {
+    "code": "ar",
+    "n": 575,
+    "pct": 5.22
+   },
+   {
+    "code": "ko",
+    "n": 554,
+    "pct": 5.03
+   },
+   {
+    "code": "fa",
+    "n": 537,
+    "pct": 4.88
+   },
+   {
+    "code": "ml",
+    "n": 532,
+    "pct": 4.83
+   },
+   {
+    "code": "el",
+    "n": 500,
+    "pct": 4.54
+   },
+   {
+    "code": "ro",
+    "n": 404,
+    "pct": 3.67
+   },
+   {
+    "code": "mk",
+    "n": 378,
+    "pct": 3.43
+   },
+   {
+    "code": "be",
+    "n": 319,
+    "pct": 2.9
+   }
+  ],
+  "medianLanguagesPerSpecies": 28.0,
+  "speciesWithoutEnglish": 0,
+  "speciesWithoutChinese": 64,
+  "minLanguagesPerSpecies": 1
+ },
+ "taxonConcept": {
+  "values": {
+   "same": 10882,
+   "broadened": 70,
+   "split": 30,
+   "narrowed": 21,
+   "new": 8
+  },
+  "withDataNotes": 111
+ },
+ "noTraitsByConcept": {
+  "same": 459,
+  "broadened": 70,
+  "split": 30,
+  "narrowed": 21,
+  "new": 8
+ },
+ "iucnOrder": [
+  "EX",
+  "EW",
+  "CR (PEW)",
+  "CR (PE)",
+  "CR",
+  "EN",
+  "VU",
+  "NT",
+  "LC",
+  "DD"
+ ],
+ "concerns": [
+  "handWingIndex contains exactly 0.1 for a small set of flightless species - treated as genuine but flagged; not documented as a sentinel in FIELDS.md.",
+  "AVONET imputed some trait values for 791 species (traits.inferred = true); they can be excluded globally.",
+  "Species whose AviList concept changed (broadened / narrowed / split / new) deliberately lack traits, non-English names and several IDs; the source left them empty rather than attach numbers belonging to different bird sets.",
+  "Missing IUCN is not 'Least Concern'; missing CITES is not 'not listed'. Analyses keep missing values explicit.",
+  "sticker.reviewScore is app metadata and is never treated as a biological variable.",
+  "No coordinates or range polygons exist in the source; geography is analyzed through IOC breeding-region codes and textual range descriptions only."
+ ]
+}

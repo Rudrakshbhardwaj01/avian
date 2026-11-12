@@ -1,0 +1,115 @@
+
+# ==========================================
+# AVIAN — Git Ignore
+# ==========================================
+
+# ---- Environment variables & secrets ----
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ---- Python testing & coverage ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# ---- FastAPI / backend runtime ----
+*.log
+logs/
+instance/
+*.pid
+
+# ---- Node.js / React / Vite ----
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+dist/
+build/
+
+# Vite cache
+.vite/
+frontend/.vite/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# npm / package manager logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- Testing ----
+coverage/
+.nyc_output/
+
+# ---- IDEs & editors ----
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Operating systems ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# ---- Temporary files ----
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# ---- Local databases ----
+*.sqlite
+*.sqlite3
+*.db
+
+# ---- Deployment ----
+.vercel/
+
+# ---- Python tooling ----
+pip-log.txt
+pip-delete-this-directory.txt
+
+docs/STABILITY_AUDIT.md
+docs/VERCEL_DEPLOYMENT.md
