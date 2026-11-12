@@ -2,7 +2,6 @@
 {
   "buildCommand": "cd frontend && npm install --no-audit --no-fund && npm run build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "pip install -r requirements.txt",
   "functions": {
     "api/index.py": {
       "maxDuration": 60,
